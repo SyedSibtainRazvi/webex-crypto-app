@@ -8,8 +8,8 @@ const Navbar = () => {
       <div>
         <img style={{ width: '60px', height: 'auto' }} src={Logo} alt="WebX"/>
       </div>
-      <div className='nav-text'>
-        <h1>Realtime Crypto Tracker</h1>
+      <div>
+        <h1 id='nav-text'>Realtime Crypto Tracker</h1>
       </div>
     </div>
   )
