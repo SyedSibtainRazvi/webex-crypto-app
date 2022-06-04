@@ -4,14 +4,14 @@ import Logo from '../assets/webx.png';
 
 const Navbar = () => {
   return (
-    <>
-      <div className='nav'>
-        <img style={{ width: '80px', height: 'auto' }} src={Logo} alt="WebX"></img>
+    <div className='nav'>
+      <div>
+        <img style={{ width: '60px', height: 'auto' }} src={Logo} alt="WebX"></img>
+      </div>
       <div className='nav-text'>
         <h1>Realtime Crypto Tracker</h1>
       </div>
-      </div>
-    </>
+    </div>
   )
 }
 
