@@ -9,7 +9,7 @@ const CoinItem = (props) => {
             <p>{props.coins.symbol.toUpperCase()}</p>
         </div>
         <p>₹{props.coins.current_price}</p>
-        <p>{props.coins.price_change_percentage_24h}</p>
+        <p>{props.coins.price_change_percentage_24h.toFixed(2)}%</p>
         <p>{props.coins.total_volume}</p>
         <p>{props.coins.market_cap}</p>
     </div>
