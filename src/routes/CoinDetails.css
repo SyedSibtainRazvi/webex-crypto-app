@@ -26,6 +26,12 @@
     font-weight: 700;
 }
 
+.hero-btn:hover{
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+
+}
+
 .info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

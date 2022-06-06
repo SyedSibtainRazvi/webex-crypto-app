@@ -34,6 +34,7 @@
     transform: scale(1.04);
     transition: .3s ease-in-out;
     cursor: pointer;
+    background-color:#013c66;
 }
 
 img {
