@@ -12,6 +12,18 @@
 
 .rank {
     margin: .5rem 0;
+    
+}
+
+.hero-btn{
+    display: flex;
+    margin: 1rem auto;
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #00171f;
+    color: #ffffff;
+    font-weight: 700;
 }
 
 .info {

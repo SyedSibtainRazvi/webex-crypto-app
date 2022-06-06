@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import React from 'react';
 import axios from 'axios';
 import DOMPurify from 'dompurify';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
+
 
 import './CoinDetails.css';
 
@@ -22,11 +23,16 @@ const CoinDetails = () => {
         console.log(err);
       })
 
-  }, [])
+  }, []);
+
+  const navigate = useNavigate();
 
   return (
     <React.Fragment>
       <div className='coin-container'>
+        
+        <button onClick={() => navigate(-1)} className='hero-btn'>⬅ Back</button>
+
         <div className='content'>
           <h1>{coinDetails.name}</h1>
         </div>

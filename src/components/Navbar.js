@@ -14,7 +14,7 @@ const Navbar = () => {
           <h1 id='nav-text'>Realtime Crypto Tracker</h1>
         </div>
       </div>
-    </Link>
+      </Link>
   )
 }
 
