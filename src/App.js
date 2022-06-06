@@ -1,8 +1,9 @@
 import React from "react";
 import { useState, useEffect, Fragment } from "react";
-
+import { Routes, Route } from "react-router-dom";
 import axios from "axios";
 import Coin from "./components/Coin";
+import CoinDetails from "./routes/CoinDetails"
 
 import Navbar from "./components/Navbar";
 function App() {
@@ -23,8 +24,16 @@ function App() {
 
   return (
     <Fragment>
+
       <Navbar />
-      <Coin coins ={coins}/>
+
+      <Routes>
+        <Route path="/" element={<Coin coins={coins} />} />
+        <Route path="/coin" element={<CoinDetails />}>
+          <Route path=":coinId" element={<CoinDetails />} />
+        </Route>
+      </Routes>
+
     </Fragment>
   );
 }

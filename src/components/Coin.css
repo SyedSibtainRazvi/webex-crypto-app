@@ -1,5 +1,5 @@
 .container {
-    max-width: 1140px;
+    max-width: 1150px;
     margin: auto;
 }
 
@@ -52,5 +52,5 @@ img {
 @media screen and (max-width: 720px) {
     .hide-mobile {
         display: none;
-    }   
+    }
 }
