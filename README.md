@@ -1,3 +1,7 @@
+# WebX
+
+WebX is a realtime crypto tracker built in React JS that fetches data from Coingeko API using Axios. And the navigation is done using React Router v6.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
